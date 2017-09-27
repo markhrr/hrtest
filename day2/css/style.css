@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .32rem;
+  font-style: normal;
+  font-weight: normal; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+body {
+  font-size: .32rem; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative; }
+
+.mask {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  margin-left: -45%;
+  background: #fff;
+  padding: 1rem 0;
+  border-radius: .2rem; }
+  .mask h1 {
+    width: 2.8rem;
+    height: 1.1rem;
+    margin: 0 auto; }
+    .mask h1 img {
+      width: 100%;
+      height: 100%; }
+  .mask h3 {
+    text-align: center;
+    font-size: .34rem;
+    line-height: 3; }
+
+.cont {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  padding: 0 .2rem; }
+  .cont p {
+    width: 100%;
+    height: .9rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding: 0 .2rem;
+    margin-top: .1rem; }
+    .cont p input {
+      width: 80%;
+      height: .8rem;
+      border: 0;
+      margin-left: .8rem; }
+    .cont p b {
+      width: .4rem;
+      height: .6rem;
+      position: absolute;
+      left: .2rem;
+      top: .1rem; }
+      .cont p b img {
+        width: 100%;
+        height: 100%; }
+  .cont button {
+    width: 100%;
+    height: .8rem;
+    color: #fff;
+    border: 0;
+    border-radius: .15rem;
+    margin-top: .8rem;
+    background: #2FBA77; }
+
+/*# sourceMappingURL=style.css.map */
