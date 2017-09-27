@@ -14,15 +14,25 @@
 			<h1><img src="img/logo_01.png" alt=""></h1>
 			<h3>设备测试预约系统</h3>
 			<div class="cont">
-				<p><b><img src="img/icon_01.png"></b><input type="text" placeholder="请输入手机号"></p>
-				<p><b><img src="img/icon_03.png"></b><input type="text" placeholder="请输入密码"></p>
-				<button>登录账号，开始预约</button>
+				<p><b><img src="img/icon_01.png"></b><input type="text" placeholder="请输入手机号" id="user"></p>
+				<p><b><img src="img/icon_03.png"></b><input type="text" placeholder="请输入密码" id="pwd"></p>
+				<button id="btn">登录账号，开始预约</button>
 			</div>
 		</div>
 	</div>
 	<script>
 		var html = document.documentElement;
+		var btn  = document.getElementById('btn');
 		html.style.fontSize=html.clientWidth/375*50+'px';
+		btn.onclick = function(){
+			var user = document.getElementById('user');
+			var pwd = document.getElementById('pwd');
+			var userV = user.value;
+			var pwdV = pwd.value;
+			if(userV==""||pwdV==""){
+				alert('手机号或密码不能为空');
+			}
+		}
 	</script>
 </body>
 </html>
